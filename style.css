@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+::selection{
+    background-color: #1d55469b;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.line_pro{
+    width: 100%;
+    height: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001 !important;
+}
+.process {
+    transition: 200ms;
+    border-radius: 30px;
+    width: 0%;
+    height: 100%;
+}
+
+.nav {
+    top: 20px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: 400ms;
+    z-index: 100 !important;
+}
+
+.nav-child {
+    width: 1300px;
+    padding-right: 2.5vw;
+}
+
+.orderlist {
+    text-transform: uppercase;
+}
+
+.orderlist>a {
+    border-radius: 30px;
+}
+
+.logo {
+    background-color: #0099706c;
+}
+
+header {
+    height: 100vh;
+    position: relative;
+    background-image: url(imgs/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.58);
+}
+
+.black a {
+    text-transform: uppercase;
+    border: 3px solid white;
+    border-radius: 30px;
+    transition: 400ms;
+}
+
+.black a:hover {
+    background-color: #009970;
+    border: 3px solid #009970;
+}
+
+.images-parent {
+    gap: 50px;
+    background-color: #F6F6F7;
+}
+
+.images-parent .img-parent {
+    width: 90px;
+    cursor: pointer;
+}
+
+.img-parent img {
+    filter: grayscale(100%);
+    transition: 500ms;
+}
+
+.img-parent img:hover {
+    filter: grayscale(0%);
+    scale: 1.2;
+}
+
+.eum h1 {
+    font-size: 50px;
+}
+
+.client {
+    width: 140px;
+    height: 100px;
+    white-space: nowrap;
+}
+
+
+.why {
+    background-color: #009970;
+}
+
+.why button {
+    border-radius: 30px;
+    transition: 300ms;
+    background-color: #1AA37F;
+    cursor: pointer;
+    color: white;
+}
+
+.why button:hover {
+    color: #1AA37F;
+    background-color: white;
+}
+
+.corprois div {
+    width: 300px;
+    transition: 300ms;
+    box-shadow: 0 0 5px 1px #ccc;
+    border-radius: 3px;
+}
+
+.corprois div:hover {
+    box-shadow: 0 0 10px 2px #ccc;
+}
+
+.bgimage-parent {
+    background-image: url(imgs/cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.bg-black-box {
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.bgimage-parent a {
+    border: 2px solid white;
+    border-radius: 30px;
+
+}
+
+.child4 {
+    background-color: #F6F6F7;
+}
+
+.child4 .icon-box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #009970;
+    border-radius: 50%;
+    transition: 300ms;
+    color: #009970;
+}
+
+.service-sibling {
+    transition: 300ms;
+    border-radius: 5px;
+    width: 45% !important;
+}
+
+.service-sibling:hover .icon-box {
+    color: white;
+    background-color: #009970;
+}
+.service-sibling:hover h1{
+    color:  #009970 !important;
+    
+}
+
+.service-sibling:hover {
+    box-shadow: 0 0 5px 0px #ccc;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+}
+
+.pagination p {
+    font-size: 13px !important;
+    border-radius: 30px;
+}
+.page-img{
+    width: 31%;
+    height: 300px;
+    cursor: pointer;
+}
+.page-img img{
+    object-fit: cover;
+    transition: 300ms;
+}
+.page-img:hover img{ 
+    transform: scale(1.2);
+}
+.blackimgbox{
+    background-color: rgba(0, 0, 0, 0.523);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 300ms;
+}
+.blackimgbox:hover{
+    opacity: 1 !important;
+}
+.letter-4{
+    letter-spacing: 5px;
+}
+.customer-box{
+    width: 43%;
+    box-shadow:  0 0 15px 2px #e2dddd;
+    border-radius: 5px;
+}
+.customer-img{
+    width:  140px;
+    height: 140px;
+}
+.customer-img img{
+    transition: 300ms;
+}
+.customer-box:hover img{
+    scale: 1.1;
+}
+.line1{
+    width: 60px;
+    height: 1px;
+    margin-top: -7px;
+    margin-bottom: 5px;
+}
+.contact{
+    width: 550px !important;
+}
+.map iframe{
+    height: 300px;
+    width: 100%;
+}
+.Location{
+    box-shadow:  0 0 15px 2px #e2dddd;
+}
+.email{
+    width: 48%;
+}
+
+.inputform input ,.inputform textarea{
+    border: 1px solid rgba(128, 128, 128, 0.388);
+}
+.border-radius{
+    border-radius: 30px;
+}
+footer{
+    background-color: #F9F8F9;
+}
+
+footer i{
+    font-size: 13px;
+}
+
+.subsbtn{
+    right: 0;
+    top: 0;
+    letter-spacing: 1px;
+}
+footer h6{
+    margin-left: -9px;
+}
+.Upbtn{
+    width:  40px;
+    height: 40px;
+    cursor: pointer;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+}
+/*  js class  */
+.nav-scroll-bg{
+    background-color: white;
+    top: 0;
+    box-shadow:  0 0 10px 2px #ccc;
+}
+.show{
+    opacity: 1;
+    visibility: visible;
+}
+@media (max-width:1300px) {
+    .nav-child {
+        width: 992px;
+    }
+}
+
+@media (max-width:992px) {
+    .nav-child {
+        width: 100%;
+        background-color: #009970 !important;
+
+    }
+    footer .container> div{
+        width: 48% !important;
+        margin: 2% 0;
+    }
+
+    .corprois {
+        width: 100% !important;
+        padding: 20px;
+    }
+
+    .corprois div {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .eum,
+    .Ullamco {
+        width: 760px !important;
+        margin: auto !important;
+    }
+
+    .nav {
+        top: 0;
+    }
+
+    .logo {
+        background-color: #009970 !important;
+    }
+
+    .child4>div {
+        width: 100% !important;
+    }
+    .page-img{
+        width: 45%;
+    }
+    .customer-box{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .eum,
+    .Ullamco {
+        width: 568px !important;
+        font-size: 17px !important;
+        margin-top: 10px;
+        border: 2px solid blue;
+        padding: 10px;
+    }
+
+    .service-sibling {
+        width: 100% !important;
+    }
+    .page-img{
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+
+    .eum h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:568px) {
+
+    .eum,
+    .Ullamco {
+        width: 100% !important;
+        margin-top: 0;
+        padding: 7vw;
+        font-size: 20px !important;
+    }
+
+    .bgimage-parent p {
+        width: 100% !important;
+    }
+    footer .container> div{
+        width: 100% !important;
+        }
+}
+
+@media (max-width:400px) {
+
+    .eum,
+    .Ullamco {
+        font-size: 25px !important;
+    }
+}

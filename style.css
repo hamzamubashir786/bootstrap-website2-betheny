@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    border: none;
+    border: 1px solid #ff0000;
 }
 
 body{
